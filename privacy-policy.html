@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Privacy Policy — Budget</title>
+  <meta name="description" content="Budget app privacy policy. Your data is stored anonymously on Google Firebase. No email, no password, no personal identifiers.">
+  <meta name="robots" content="index, follow">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">
+        <img src="assets/icon.png" alt="Budget app icon" width="32" height="32">
+        <span class="navbar__wordmark">Budget</span>
+      </a>
+      <div class="navbar__actions">
+        <a href="index.html#features" class="navbar__link">Features</a>
+        <a href="privacy-policy.html" class="navbar__link">Privacy</a>
+        <a href="#" class="btn btn--primary btn--sm" target="_blank" rel="noopener">
+          Download Free
+        </a>
+        <a href="https://allanrose-beep.github.io/pm-portfolio/" class="navbar__portfolio-link">Portfolio</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PRIVACY POLICY CONTENT -->
+  <main class="privacy-page container">
+    <h1>Privacy Policy</h1>
+    <p class="privacy-meta">Last updated: 2026-04-29 · Effective immediately</p>
+
+    <h2>1. Who We Are</h2>
+    <p>Allan Rose (Product Manager) built the Budget app as a free personal finance tool.
+    This Privacy Policy explains what data Budget accesses, how it is used and stored, and your rights.</p>
+    <p>Contact: <a href="mailto:pmallan.rose@gmail.com">pmallan.rose@gmail.com</a></p>
+
+    <h2>2. Data Budget Accesses and Stores</h2>
+
+    <h3>No Cloud Accounts</h3>
+    <p>Budget does not require you to sign up, log in, or create an account. There are no "unique IDs" stored on our servers because we don't have any servers. You remain completely anonymous.</p>
+
+    <h3>Transaction Data (On-Device Only)</h3>
+    <p>Every expense record you confirm — amount, category, and date — is stored in a secure, encrypted local database on your phone's internal storage. We do not use cloud storage (like Firebase or Firestore). Because this data is only on your device, no one else can access or read it.</p>
+
+    <h3>SMS Messages (Local Processing)</h3>
+    <p>Budget requests Android's READ_SMS permission to detect bank transaction messages. This detection happens offline on your device. The raw SMS text is never transmitted over the internet or stored in any logs. Only the specific transaction details you explicitly tap to "Confirm" are saved to your local database.</p>
+
+    <h3>Notifications (Local Processing)</h3>
+    <p>Budget uses Android's NotificationListenerService to read payment alerts from UPI apps (GPay, PhonePe, Paytm). This content is processed on-device only. The raw notification is discarded immediately after processing.</p>
+
+    <h3>App Preferences</h3>
+    <p>Your budget limits and category settings are stored locally on your device. If you uninstall the app, these settings are deleted along with your transaction history.</p>
+
+    <h2>3. Infrastructure & Security</h2>
+    <p>Since Budget does not use cloud infrastructure, your security is tied to your physical device. Budget utilizes Android's secure internal storage to prevent other apps on your phone from accessing your financial records. We do not use any third-party data processors.</p>
+
+    <h2>4. What Budget Does NOT Do</h2>
+    <ul>
+      <li>Does Not upload your financial data to the cloud.</li>
+      <li>Does Not track your identity via email, phone number, or device ID.</li>
+      <li>Does Not sell or share your spending habits with advertisers.</li>
+      <li>Does Not use any analytics or tracking SDKs.</li>
+      <li>Does Not require an internet connection to function.</li>
+    </ul>
+
+    <h2>5. Data Control & Deletion</h2>
+    <p>You have 100% control over your data. You can erase everything at any time by:</p>
+      <ul>
+      <li>Using the "Clear All Data" button in the app Settings.</li>
+      <li>Uninstalling the app (Android automatically wipes the local database).</li>
+    </ul>
+    <p>Because we do not store your data on servers, we cannot "restore" your data if you lose your phone or delete the app. We also cannot delete your data for you, as we never had access to it in the first place.</p>
+
+    <h2>6. Monetisation</h2>
+    <p>Budget is currently free to use with no advertisements and no in-app purchases. We may
+    introduce optional paid features or other monetisation in the future. If we do, this policy
+    and the app store listing will be updated to reflect those changes before they take effect.</p>
+
+    <h2>9. Changes to This Policy</h2>
+    <p>If this policy changes materially, the updated version will be posted at this URL with an
+    updated "Last updated" date. Continued use of the app after a change constitutes acceptance
+    of the updated policy.</p>
+
+    <h2>10. Contact</h2>
+    <p>For further queries: <a href="mailto:pmallan.rose@gmail.com">pmallan.rose@gmail.com</a></p>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+
+      <div class="footer__brand">
+        <a href="#hero" class="footer__logo">
+          <img src="assets/icon.png" alt="Budget app icon" width="28" height="28">
+          <span>Budget</span>
+        </a>
+        <p class="footer__tagline">Personal finance that respects your privacy.</p>
+        <a href="https://allanrose-beep.github.io/pm-portfolio/" class="footer__portfolio-card">
+          <span class="footer__portfolio-card-arrow">←</span>
+          <div>
+            <p class="footer__portfolio-card-title">View Allan's Portfolio</p>
+            <p class="footer__portfolio-card-sub">See what else he's building.</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="footer__links">
+        <p class="footer__links-heading">App</p>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#" target="_blank" rel="noopener">Download</a>
+      </div>
+
+      <div class="footer__links">
+        <p class="footer__links-heading">Legal</p>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="privacy-policy.html">Delete My Account</a>
+        <a href="mailto:pmallan.rose@gmail.com">Contact</a>
+      </div>
+
+    </div>
+
+    <div class="footer__legal-bar">
+      <div class="container">
+        <p>© 2026 Allan Rose. All rights reserved.</p>
+        <p>Budget is a 100% local-first application. We do not collect, store, or share any user transaction data. All processing and storage occur exclusively on the user's device.</p>
+        <p>Budget is a personal finance tracking tool. It does not provide financial advice.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
